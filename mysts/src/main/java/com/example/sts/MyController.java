@@ -10,4 +10,9 @@ public class MyController {
 	public String get() {
 		return "hello my site";
 	}
+	
+	@GetMapping("/greeting")
+	public String mygreet() {
+		return "나의 사이트에 오신걸 환영합니다";
+	}
 }
